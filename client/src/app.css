@@ -1,0 +1,69 @@
+.card{
+    width: 250px;
+    height: 250px;
+    /* background-color: #bf1363; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+label{
+    color: #bf1363;
+    font-size: 13px;
+    border-bottom: 1px solid #bf1363;
+}
+
+.desc{
+    font-size: 14px;
+}
+
+.start{
+    color: #fca311;
+}
+
+form{
+    width: 250px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+input, textarea{
+    border: none;
+    border-bottom: 1px solid gray;
+}
+input::placeholder, textarea::placeholder{
+    font-size: 12px;
+    color: gray;
+}
+
+.button {
+    font-size: 16px;
+    border: none;
+    margin: 3px;
+    padding: 8px;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+}
+
+.button:hover{
+    color: #231e23;
+}
+
+.buttons,.logout{
+  position: absolute;
+  top: 1%  ;
+  right: 1%;
+}
+
+.logout{
+    background-color: #bf1363;
+}
+.login{
+    background-color:#39a6a3;
+}
+.register{
+    background-color: #bf1363;
+}
